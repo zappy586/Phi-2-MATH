@@ -5,6 +5,10 @@
 ## This is a colab notebook for finetuning Microsoft's Phi-2-3B LLM for solving mathematical word problems using QLoRA, Uploading adapters to 🤗 Hub, Merging the adapters and then uploading it on 🤗 repo. The notebook also contains code for inferencing it directly from my repo.
 
 * Link to my repo: https://huggingface.co/ZappY-AI/phi2-math-orca
+* Link to the dataset: https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k
+* Base model: https://huggingface.co/microsoft/phi-2
+
+* The model was loaded and trained in 4-bit quantization and float16 tensors for the sake of efficiency.
 
 * The model was chosen because of its small size and less trainable parameters and extremely good performance as it can outperform models that are 5x-10x times bigger than itself. Take a look at these eval metrics:
 
