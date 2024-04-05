@@ -27,6 +27,7 @@
         target_modules= ["Wqkv", "out_proj"])
   ```
   * The following are the training metrics:
+
     ![image](https://github.com/zappy586/Phi-2-MATH/assets/89218647/aa036b58-864f-40eb-891a-a798b72fae44)
 
   
